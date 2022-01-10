@@ -10,7 +10,7 @@
   <h1>Registration form</h1>
   <div class="form-box">
 
-    <form name="registerForm"  class="formlay">
+    <form name="registerForm"  class="formlay"  id="add-form">
 
     <div class="forminput">  
       <label for="firstName">First Name *</label>
@@ -38,14 +38,13 @@
         <option value="US">US</option>
         <option value="EN">EN </option>
         <option value="FR">FR </option>
-
     </select>
     <input type="tel" id="output" class="con2" placeholder="Phone Number">
     </div>
 
     <div class="forminput">
     <label for="Product">Product Name *</label>
-    <select class="drop">
+    <select class="drop" id="product">
         <option value="item">Mobile Phone</option>
         <option value="item">TV</option>
         <option value="item">DVD Player</option>
@@ -84,13 +83,15 @@
   </div>
 
     <div class="buttonlast">
-      <input class="green" type="Button" value="Button"  onclick="formValidation()" />
+      <input type="submit" name="submit" class="green" value="Submit" class="btn btn-success" onclick="validation()">
       <input type="submit" class="red" name="submit" value="Cancel">
     </div>
 
     </form>
   </div>
+  
   <script>
+
     (function(){
 
 "use strict"
