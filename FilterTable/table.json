@@ -1,0 +1,112 @@
+
+
+
+    {
+
+   
+        "table" : [
+        
+        {
+            "name":"Dakshith",
+            "age":"20",
+            "college":"SSCE",
+            "department": "ECE",
+            "skills":"Java"
+        },
+        {
+            "name":"Riyan",
+            "age":"20",
+            "college":"SSCE",
+            "department": "EEE",
+            "skills":"C++"
+        },
+        {
+            "name":"Liba",
+            "age":"21",
+            "college":"SSCE",
+            "department": "CSE",
+            "skills":"Python"
+        },
+        {
+            "name":"Raj",
+            "age":"18",
+            "college":"SSCE",
+            "department": "IT",
+            "skills":"React"
+        },
+        {
+            "name":"Akash",
+            "age":"19",
+            "college":"SSCE",
+            "department": "Mech",
+            "skills":"NodeJs"
+        },
+        {
+            "name":"Nanthini",
+            "age":"20",
+            "college":"SSCE",
+            "department": "EEE",
+            "skills":"Photoshop"
+        },
+        {
+            "name":"Dakshith",
+            "age":"21",
+            "college":"SSCE",
+            "department": "CSE",
+            "skills":"Javascript"
+        },
+        {
+            "name":"Akash",
+            "age":"22",
+            "college":"SSCE",
+            "department": "IT",
+            "skills":"Kotlin"
+        },
+        {
+            "name":"Gupta",
+            "age":"22",
+            "college":"SSCE",
+            "department": "IT",
+            "skills":"MATLAB"
+        },
+        {
+            "name":"Meera",
+            "age":"21",
+            "college":"SSCE",
+            "department": "CSE",
+            "skills":"Quantum computing"
+        },
+        {
+            "name":"Divya",
+            "age":"20",
+            "college":"SSCE",
+            "department": "IT",
+            "skills":"Cloud"
+        },
+        {
+            "name":"Sabari",
+            "age":"18",
+            "college":"SSCE",
+            "department": "CSE",
+            "skills":"CSS"
+        },
+        {
+            "name":"Gayathri",
+            "age":"19",
+            "college":"SSCE",
+            "department": "IT",
+            "skills":"HTML"
+        },
+        {
+            "name":"Ram",
+            "age":"18",
+            "college":"SSCE",
+            "department": "CSE",
+            "skills":"Java"
+        }
+        
+        
+        ]
+        } 
+ 
+

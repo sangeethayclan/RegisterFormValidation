@@ -1,4 +1,4 @@
-const table = [
+/* const table = [
     {
         name:"Dakshith",
         age:"20",
@@ -11,7 +11,7 @@ const table = [
         age:"20",
         college:"SSCE",
         department: "EEE",
-        skills:"C"
+        skills:"C++"
     },
     {
         name:"Liba",
@@ -97,9 +97,7 @@ const table = [
         department: "CSE",
         skills:"Java"
     }
-]
-
-const tableHeader = Object.keys(table[0]);
+] */
 
 
 const search = document.querySelector('.filter-input');
