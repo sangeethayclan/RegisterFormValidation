@@ -99,6 +99,8 @@
     }
 ] */
 
+// var mydata = JSON.parse(table1);
+// console.log(mydata)
 
 const search = document.querySelector('.filter-input');
 const output = document.querySelector('.output');
@@ -160,4 +162,3 @@ function display(iteratorObject){
 
 }
 
-// https://github.com/kj6995/Filter_Table
