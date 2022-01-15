@@ -1,12 +1,8 @@
 const table=[];
 
-  const addForm = document.getElementById('add-form')
-               
-       addForm.onsubmit = function(e) {
-        
-        e.preventDefault();
+ 
 
- // function formValidation() {
+  function validation() {
   var fname = document.getElementById('firstName').value;
   var lname = document.getElementById('lastName').value;
   var email = document.getElementById('e-mail').value;

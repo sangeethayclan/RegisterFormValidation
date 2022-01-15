@@ -14,7 +14,19 @@
     </div>
 
     <script src="main.js"></script>
-    <script type="text/javascript" src="table.json"></script>
+   
+    <script>
+        fetch("https://sangeetha.npkn.net/studentdetails").then(
+            res=>{
+                res.json().then(
+                    data=>{
+                        console.log(data);
+                    }
+                )
+            }
+        )
+    </script>
+
 
   
 </body>

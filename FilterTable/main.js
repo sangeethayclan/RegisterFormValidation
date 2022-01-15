@@ -99,8 +99,7 @@
     }
 ] */
 
-// var mydata = JSON.parse(table1);
-// console.log(mydata)
+
 
 const search = document.querySelector('.filter-input');
 const output = document.querySelector('.output');
