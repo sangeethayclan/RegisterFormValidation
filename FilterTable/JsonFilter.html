@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Filtering Table</h1>
+    <div class="container">
+    
+    
+    <table  class="table" id="myTable">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search by name.." class="filter-input" title="Type in a name">
+    
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>College</th>
+                    <th>Department</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody id="output">
+
+            </tbody>
+</table>
+</div>
+<script>
+
+
+    fetch("https://sangeetha.npkn.net/tabledata/").then(
+            res => {
+                res.json().then(
+                    output => {
+                        console.log(output.data);
+
+                        const table = output.data;
+                        if (table.length > 0) {
+
+                            var temp = "";
+                            table.forEach((u) => {
+                                temp += "<tr>";
+                                temp += "<td>" + u.name + "</td>";
+                                temp += "<td>" + u.age + "</td>";
+                                temp += "<td>" + u.college + "</td>";
+                                temp += "<td>" + u.department + "</td>";
+                                temp += "<td>" + u.skills + "</td></tr>";
+                            });
+                            document.getElementById('output').innerHTML = temp;
+
+                            
+                
+                        }
+                    })
+            })
+
+            function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+
+    
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
